@@ -1,0 +1,30 @@
+.coin-item-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coin-link {
+  color: var(--color-primary);
+  text-decoration: none;
+
+  span {
+    display: block;
+  }
+}
+
+.button-toggleSaved {
+  padding: 3px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-blue);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+
+  .toggle-icon {
+    display: block;
+    margin: auto;
+    fill: var(--color-light);
+    width: 50%;
+  }
+}

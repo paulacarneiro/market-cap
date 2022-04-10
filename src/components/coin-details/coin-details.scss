@@ -1,0 +1,53 @@
+div.coin-container {
+  overflow-y: hidden;
+}
+
+.coin-logo {
+  width: 6rem;
+}
+
+.row {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.market-data {
+  margin: 0 2rem;
+  display: flex;
+
+  & > * {
+    margin:0.5rem 1rem;
+  }
+
+  @media only screen and (max-width: 700px) {
+    height: 80%;
+    flex-direction: column;
+  }
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.value {
+  font-size: 1.2rem;
+}
+
+.coin-description {
+  width: 70%;
+  height: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 1rem;
+  line-height: 1.5rem;
+  margin: 1.5rem auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  p {
+    line-height: 1.5;
+  }
+}

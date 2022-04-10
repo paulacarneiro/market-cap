@@ -1,0 +1,28 @@
+.search-input {
+  color: var(--color-primary);
+  border: none;
+  background-color: rgba(224, 231, 234, .3);
+  padding: 1rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
+
+  &:focus {
+    outline: none;
+  }
+  
+  &::placeholder {
+    color: rgba(255, 255, 255, .5);
+  }
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}
+
+  

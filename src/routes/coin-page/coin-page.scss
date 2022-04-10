@@ -1,0 +1,21 @@
+.return-arrow-wrapper {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 6%;
+    left: 10%;  
+}
+
+.return-arrow-icon {
+    width: 100%;
+    border: none;
+    fill: var(--color-blue);
+    
+    &:hover {
+      fill: var(--color-light);
+    }
+}
+
+.coin-header {
+    margin: auto;
+}
