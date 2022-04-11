@@ -2,10 +2,11 @@
 
 ## Overview
 
-This app was created as a React code challenge. It allows users to search for a cryptocurrencies and see some information about it.
+This app was created as a React code challenge. It allows users to search for a cryptocurrencies and see some information about it*.
+
 Live demo: https://finiammarketcap.herokuapp.com
 
-* Uses information from [CoinGecko API](https://www.coingecko.com/en/api)
+\* Uses information from [CoinGecko API](https://www.coingecko.com/en/api)
 
 ## Built with
 
